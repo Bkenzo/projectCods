@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
+
 <body>
+    <div class="title">
+        <p>DOJO ESTÁCIO EAD</p> 
+    </div>
     <div class="container">
+    
         <form action="" class="recordPeople">
-            <label>First name</label>
+            <!--Register information Dojo-->
+            <div class="InfomationDojo">
+                
+                <div class="containerField">
+                    <label>Name dojo</label>
+                    <input type="text" class="nameDojo">
+                </div>
 
-            <input type="text" class="fieldFirstName">
+                <div class="containerField">
+                    <label>Description dojo</label>
+                    <textarea class="DescriptionDojo" cols="30" rows="10"></textarea>
+                </div>
 
-            <input type="submit" class="buttonSend" value="send">
+            </div>
+
+            <!--Register participants-->
+            <div class="registerParticipants">
+                <label>First name</label>
+
+                <input type="text" class="fieldFirstName">
+
+                <input type="submit" class="buttonSend" value="send">
+
+                <input type="button" class="buttonList" value="organizelist">
+            </div>
 
         </form>
 
     </div>
     <script src="./src/js/script.js"></script>
 </body>
+
 </html>
