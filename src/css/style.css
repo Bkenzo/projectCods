@@ -1,4 +1,61 @@
-/*apply style to the whole page*/
+body {
+    background: rgb(144, 42, 42);
+    font: normal 20pt Arial;
+
+}
+
+/* Formatação do Cabeçalho e titulos */
+header h1 {
+    color: rgb(66, 66, 66);
+    text-align: center;
+    font-family: Arial;
+    font-size: 30pt;
+    text-shadow: 2px 2px 2px white;
+    
+
+}
+
+header h2 {
+    color: rgb(66, 66, 66);
+    text-align: center;
+    font-family: Arial;
+    font-size: 30pt;
+    text-shadow: 2px 2px 2px white;
+    padding-bottom: 40px;
+    border-bottom: 2px #606060 solid;
+    
+}
+
+/* Formatação de imagens */
+img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 4px black;
+    position: absolute;
+    top: 10px;
+    right: 90px; 
+}
+
+
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+    
+    /*apply style to the whole page*/
 * {
     margin: 0;
     padding: 0;
@@ -6,25 +63,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*title*/
-.title {
-    font-size: 20px;
-    background-color: rgba(47, 28, 28, 0)
-    
-    margin: 0;
-    
-}
-
-/*containers*/
-.container {
-    margin: 20px 5px;
-    padding: 10px;
-    border: 1px solid gray; /*Temp*/
-}
 
 /*Apply style to labels*/
 label {
     display: block;
+    background: rgb(206, 143, 143);
+    padding-bottom: 5px;
 }
 
 /*Apply style to button*/
